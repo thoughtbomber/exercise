@@ -1,0 +1,16 @@
+[project]
+name = "thoughtbomber"
+version = "0.0.1"
+description = "my exercises"
+requires-python = ">=3.11"
+dependencies = ["pandas", "numpy", "jupyter"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+optimization = ['pyomo']
+
+# pip install .
+# pip install .[optimization]
