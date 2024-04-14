@@ -1,0 +1,1 @@
+This is a collection of exercises which cover various ground regarding mathematical modelling (e.g. machine learning, operations research)
